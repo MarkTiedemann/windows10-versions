@@ -1,7 +1,4 @@
 node_modules
+package.json
 yarn.lock
-*.html
-*.tmp
-*.json
-!package.json
-!release_kbs.json
+en-US.html

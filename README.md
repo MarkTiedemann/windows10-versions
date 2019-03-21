@@ -1,10 +1,18 @@
 # windows10-versions
 
-**List of Windows 10 versions: [`versions.tsv`](versions.tsv).**
+**List of Windows 10 versions.**
+
+- [`versions.csv`](versions.csv)
+- [`versions.tsv`](versions.tsv)
+- [`versions.json`](versions.json)
 
 ## Development
 
-- **Update the list:** `make -j7`
+```sh
+yarn add jsdom
+curl -O https://winreleaseinfoprod.blob.core.windows.net/winreleaseinfoprod/en-US.html
+node .
+```
 
 ## License
 
